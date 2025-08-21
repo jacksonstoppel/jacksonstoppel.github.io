@@ -1,17 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <h1 style="text-align: center;"><span style="color: #ffffff;"><strong>Jackson L. Stoppel</strong></span></h1>
-    <style>
-        body {
-            background-color: lightblue; /* You can use color names, hex, rgb, etc. */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Jackson Stoppel</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* full screen height */
+      background: #00d9ff;
+      margin: 0;
+    }
+    .container {
+      text-align: center;
+    }
+    .link-item {
+      margin: 20px;
+      display: inline-block;
+    }
+    .link-item img {
+      width: 150px;  /* change size as needed */
+      height: auto;
+      border-radius: 8px; /* rounded corners */
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+    .link-item img:hover {
+      transform: scale(1.05);
+    }
+    .caption {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #333;
+    }
+  </style>
 </head>
 <body>
-    <h2><a href="academic.html"></a><span style="color: #ffffff;">Academic</span></h2>
-    <h2><a href="personal.html"></a><span style="color: #ffffff;">Personal</span></h2>
-    <h2><a href="projects.html"></a><span style="color: #ffffff;">Projects</span></h2>
+
+
+<a href="projects.html">
+  <img src="index_images/telescope.png" alt="Projects" style="width:120px; height:auto;">
+</a>
+
+<a href="academic.html">
+  <img src="index_images/atom.png" alt="Academic" style="width:120px; height:auto;">
+</a>
+
+<a href="personal.html">
+  <img src="index_images/user.png" alt="Personal" style="width:120px; height:auto;">
+</a>
     
 </body>
 </html>
